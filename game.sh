@@ -1,4 +1,5 @@
 #!/bin/bash
+# Copyright (c) 2021 Mike Morrison
 trap "tput cnorm; exit 0" INT
 declare -i x=0
 declare -i y=0
